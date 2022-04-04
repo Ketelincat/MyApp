@@ -10,7 +10,7 @@
 
 
     <TextView
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="80dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
@@ -19,35 +19,30 @@
         android:textColor="@color/white"
         android:textSize="45dp" />
 
-    <TextView
-        android:textColor="@color/white"
-        android:layout_marginTop="40dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="27dp"
-        android:text="Email Address" />
 
     <EditText
+        android:textColor="@color/white"
         android:backgroundTint="@color/white"
         android:layout_width="match_parent"
-        android:layout_height="20dp"
+        android:layout_height="40dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp" />
-
-    <TextView
-        android:textColor="@color/white"
+        android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="27dp"
-        android:text="Password" />
+        android:textColorHint="@color/white"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"/>
 
     <EditText
+        android:layout_marginTop="20dp"
         android:backgroundTint="@color/white"
         android:layout_width="match_parent"
-        android:layout_height="20dp"
+        android:layout_height="40dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp" />
+        android:layout_marginRight="20dp"
+        android:textColorHint="@color/white"
+        android:hint="@string/Senha"
+        android:inputType="textPassword"
+        />
 
 
     <Button
@@ -55,10 +50,9 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:background="#9C2222"
-        android:text="login>
-
-    </Button>
-
+        android:text="login"
+        android:textColor="@color/white"
+    />
 
     <TextView
         android:textColor="@color/white"
